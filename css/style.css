@@ -1,0 +1,31 @@
+.cpt_submenu_options {
+  clear: both;
+  margin-right: 10px;
+  font-size: 13px;
+  color: #666666; }
+  .cpt_submenu_options .cpt_submenu_container {
+    display: none;
+    border: 1px solid #e5e5e5;
+    padding: 5px; }
+    .cpt_submenu_options .cpt_submenu_container .cpt_submenu_field {
+      padding: 5px; }
+      .cpt_submenu_options .cpt_submenu_container .cpt_submenu_field label {
+        display: block;
+        width: 100%;
+        font-style: italic; }
+      .cpt_submenu_options .cpt_submenu_container .cpt_submenu_field select {
+        display: block;
+        width: 100%;
+        margin: 0;
+        height: auto; }
+    .cpt_submenu_options .cpt_submenu_container .cpt_submenu_post_type {
+      display: block; }
+    .cpt_submenu_options .cpt_submenu_container .cpt_submenu_taxonomy,
+    .cpt_submenu_options .cpt_submenu_container .cpt_submenu_term {
+      display: none; }
+    .cpt_submenu_options .cpt_submenu_container .cpt_submenu_message {
+      display: block;
+      background: #FFFFDD;
+      color: #000000; }
+
+/*# sourceMappingURL=style.css.map */
