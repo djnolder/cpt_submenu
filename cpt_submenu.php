@@ -175,7 +175,7 @@ class cpt_submenu {
 						$post->post_type = 'nav_menu_item';
 						$post->menu_order = $order;
 						$post->menu_item_parent = $item->ID;
-						$post->object_id = $post->ID;
+						$post->object_id = $old_post_id;
 						$post->object = $data['post_type'];
 						$post->type = "post_type";
 						$post->type_label = get_post_type_object($data['post_type'])->labels->singular_name;
